@@ -8,7 +8,7 @@
       "paths" : [
         { "in"  : "{base-dir}/Code/IrisBase/-bin/*~version~/Release/Iris Backend.exe",
           "out" : "{dev-dir}/Iris Backend {version} Release.exe" }, 
-        { "in"  : "{base-dir}/Code/IrisBase/-bin/*~version~/Debug/IrisBase Backend.exe",
+        { "in"  : "{base-dir}/Code/IrisBase/-bin/*~version~/Debug/Iris Backend.exe",
           "out" : "{dev-dir}/Debug/Iris Backend {version} Debug.exe" }
       ]
     },
