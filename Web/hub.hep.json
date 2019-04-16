@@ -1,0 +1,14 @@
+{
+  "vars" : [
+  ],
+  "hubs" : [
+  ],
+  "pipes" : [
+    { "tool" : "smartcopy",
+      "paths" : [
+        { "in"  : "{tmp-web-dir}/*~file~",
+          "out" : "{dev-dir}/web-iris/{file}" }
+      ]
+    }
+  ]
+}
