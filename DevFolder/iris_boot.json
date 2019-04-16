@@ -1,0 +1,6 @@
+{ "serious" : [
+    { "env" : { "setRefDir" : "{boot}/../"} },
+    
+    { "env" : "createSocketMan" }
+  ]
+}
