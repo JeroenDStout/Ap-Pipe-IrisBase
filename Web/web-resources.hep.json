@@ -6,8 +6,10 @@
   "pipes" : [
     { "tool" : "smartcopy",
       "paths" : [
+        { "in"  : "{file-dir}/logo/raw_logo.png",
+          "out" : "{tmp-web-dir}/raw_logo.png" },
         { "in"  : "{tmp-web-dir}/*~file~",
-          "out" : "{dev-dir}/web-iris/{file}" }
+          "out" : "{front-src-dir}/-ex-res/{file}" }
       ]
     }
   ]

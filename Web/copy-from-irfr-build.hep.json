@@ -1,0 +1,18 @@
+{
+  "pipes" : [
+    { "tool" : "smartcopy",
+      "paths" : [
+        { "in"  : "{front-build-dir}/*~file~",
+          "out" : "{dev-dir}/Web/{file}" },
+        { "in"  : "{front-build-dir}/static/*~file~",
+          "out" : "{dev-dir}/Web/static/{file}" },
+        { "in"  : "{front-build-dir}/static/css/*~file~.css",
+          "out" : "{dev-dir}/Web/static/css/{file}.css" },
+        { "in"  : "{front-build-dir}/static/js/*~file~.js",
+          "out" : "{dev-dir}/Web/static/js/{file}.js" },
+        { "in"  : "{front-build-dir}/media/*~file~",
+          "out" : "{dev-dir}/Web/static/media/{file}" }
+      ]
+    }
+  ]
+}
