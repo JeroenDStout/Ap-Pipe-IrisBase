@@ -17,7 +17,7 @@
         { "in"  : "{cur-dir}/favicon.ico",
           "out" : "{dev-dir}/Web/iris_favicon.ico" },
         { "in"  : "{cur-dir}/favicon.ico",
-          "out" : "{base-dir}/Code/IrisBase/Visual Studio/icon1.ico" }
+          "out" : "{vsproj-dir}/icon1.ico" }
       ]
     }
   ]
