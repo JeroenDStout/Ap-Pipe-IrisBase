@@ -15,7 +15,11 @@
     { "tool" : "smartcopy",
       "paths" : [
         { "in"  : "{cur-dir}/iris_boot.json",
-          "out" : "{dev-dir}/iris_boot.json" }
+          "out" : "{dev-dir}/iris_boot.json" },
+        { "in"  : "{cur-dir}/favicon.ico",
+          "out" : "{dev-dir}/Web/iris_favicon.ico" },
+        { "in"  : "{cur-dir}/favicon.ico",
+          "out" : "{base-dir}/Code/IrisBase/Visual Studio/icon1.ico" }
       ],
       "settings" : [
       ]
