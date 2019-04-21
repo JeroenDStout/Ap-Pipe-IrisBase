@@ -2,6 +2,9 @@
     { "env  / set_ref_dir"              : "{boot}" },
     { "env  / set_user_dir"             : "{os-roaming}/apeiron/iris" },
     
-    { "env  / create_socketman"         : { "port" : 3002 } }
+    { "env  / create_socketman"         : { "port" : 3002 } },
+    { "env  / create_layouts"           : {} },
+    
+    { "lay  / set_setup_dir"            : { "path" : "{ref}/Iris" } }
   ]
 }
