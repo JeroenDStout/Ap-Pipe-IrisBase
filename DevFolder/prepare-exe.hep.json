@@ -17,6 +17,12 @@
         { "in"  : "{cur-dir}/iris_boot.json",
           "out" : "{dev-dir}/iris_boot.json" }
       ]
+    },
+    { "tool" : "smartcopy",
+      "paths" : [
+        { "in"  : "{cur-dir}/iris_enum_iris.json",
+          "out" : "{dev-dir}/Iris/Connexions/iris.json" }
+      ]
     }
   ]
 }
