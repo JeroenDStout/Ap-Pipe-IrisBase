@@ -9,6 +9,8 @@
         { "in"  : "{file-dir}/logo/raw_logo.png",
           "out" : "{tmp-web-dir}/raw_logo.png" },
         { "in"  : "{tmp-web-dir}/*~file~",
+          "out" : "{front-src-dir}/-ex-res/{file}" },
+        { "in"  : "{file-dir}/font/*~file~",
           "out" : "{front-src-dir}/-ex-res/{file}" }
       ]
     }
