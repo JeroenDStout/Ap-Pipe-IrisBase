@@ -6,14 +6,6 @@
   "pipes" : [
     { "tool" : "smartcopy",
       "paths" : [
-        { "in"  : "{base-dir}/Code/IrisBase/-bin/*~version~/Release/Iris Backend.exe",
-          "out" : "{dev-dir}/Iris Backend {version} Release.exe" }, 
-        { "in"  : "{base-dir}/Code/IrisBase/-bin/*~version~/Debug/Iris Backend.exe",
-          "out" : "{dev-dir}/Debug/Iris Backend {version} Debug.exe" }
-      ]
-    },
-    { "tool" : "smartcopy",
-      "paths" : [
         { "in"  : "{cur-dir}/favicon.ico",
           "out" : "{dev-dir}/Web/iris_favicon.ico" },
         { "in"  : "{cur-dir}/favicon.ico",
