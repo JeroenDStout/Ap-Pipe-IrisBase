@@ -1,5 +1,6 @@
 {
-    "name" : "Iris",
+    "name" : "ir",
+    "long_name" : "Iris",
     "port" : 3002,
     "icon" : "web/iris_favicon.ico"
 }
