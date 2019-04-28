@@ -8,6 +8,8 @@
       "paths" : [
         { "in"  : "{file-dir}/logo/raw_logo.png",
           "out" : "{tmp-web-dir}/raw_logo.png" },
+        { "in"  : "{file-dir}/elements/element_none.png",
+          "out" : "{tmp-web-dir}/element_none.png" },
         { "in"  : "{tmp-web-dir}/*~file~",
           "out" : "{front-src-dir}/-ex-res/{file}" },
         { "in"  : "{file-dir}/font/*~file~",
