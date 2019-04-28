@@ -5,6 +5,7 @@
     { "env  / create_socketman"         : { "port" : 3002 } },
     { "env  / create_layouts"           : {} },
     
-    { "lay  / set_setup_dir"            : { "path" : "{ref}/Iris" } }
+    { "lay  / set_setup_dir"            : { "path" : "{ref}/Iris" } },
+    { "lay  / commence"                 : {} }
   ]
 }
