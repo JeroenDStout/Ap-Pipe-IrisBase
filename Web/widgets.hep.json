@@ -1,0 +1,14 @@
+{
+  "vars" : [
+  ],
+  "hubs" : [
+  ],
+  "pipes" : [
+    { "tool" : "smartcopy",
+      "paths" : [
+        { "in"  : "{widget-js-dir}/*~file~",
+          "out" : "{web-dir}/widgets/{file}" }
+      ]
+    }
+  ]
+}
